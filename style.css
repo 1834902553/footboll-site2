@@ -1,0 +1,156 @@
+/* font link  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body{
+    font-family: 'Libre Franklin', sans-serif;
+    margin: 0;
+    padding:0;
+    
+}
+/* --------------------------top-section------------ */
+
+.top-section{
+    background-color: aqua;
+    display:flex;
+    justify-content: space-around;
+    margin-bottom: 86px;
+    height:640px;
+}
+.top-section-title{
+    width: 50%;;
+}
+
+
+.top-section-title h1{
+    color:white;
+    font-size: 64px;
+    font-family: 'Poppins', sans-serif;
+    margin:207px 0 0 153px;
+    margin-bottom: 27px;
+}
+.top-section-title a{
+    padding: 10px 24px;
+    text-decoration: none;
+    margin-left:153px;
+    color: white;
+    background: #e2739c;
+    transition: 1s ease-in-out;
+    
+}
+.top-section-title a:hover{
+    padding-left:40px;
+}
+.top-section-title a span{
+    margin-left: 9px;
+}
+.top-section-title-image{
+    width:50%;
+}
+.top-section-title-image img{
+    width: 556.01px;
+height: 438px; 
+padding-top:153px;
+transition: 1s ease-in-out;
+}
+.top-section-title-image img:hover{
+    width:600px;
+    height:480px;
+}
+
+/* Player Details(Whats there name,pic &information) */
+
+.players-details{
+    display: flex;
+   justify-content: center;
+    margin-bottom: 100px;
+   
+}
+.players-details-info{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 35px;
+    grid-row-gap: 26px;
+    width: 1080px;
+  
+}
+.players-called{
+ 
+padding: 15px 16px 33px 15px;
+box-shadow: rgba(0, 0, 0, 0.459) 0px 10px 36px 0px, rgba(238, 189, 189, 0.233) 0px 0px 0px 1px;
+}
+.players-called img{
+    width: 300px;
+    height: 250px;
+
+}
+.players-called h2{
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif;
+}
+.players-called p{
+    font-size: 16px;
+    font-family: 'Poppins', sans-serif;
+   margin-bottom: 15px;
+}
+
+/* --------player-gallery----------- */
+
+.players-gallery{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+
+}
+.player-con{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 27px;
+      width: 1050px;
+
+}
+.player-pictures img{
+    width: 300px;
+    height: 256px;
+}
+
+
+/* ----- Live Copa America Video------ */
+
+.video-content{
+ display: flex;
+ justify-content: center;
+ margin-bottom: 100px;
+
+}
+
+.video-content-til h2{
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.video{
+    width: 1050px;
+    height: 415px;
+}
+
+/* ------footer section ----- */
+
+footer{
+    text-align: center;
+}
+footer img{
+    width: 400px;
+    height: 100px;
+}
+footer .icon i{
+    margin-right: 20px;
+    border: 1px solid transparent;
+    padding:10px;
+    border-radius: 100%;
+    color:white;
+    background-color: gray;
+}
